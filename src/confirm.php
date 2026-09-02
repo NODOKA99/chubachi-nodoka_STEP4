@@ -46,7 +46,7 @@
 
       echo"<p>質問:".htmlspecialchars($question,ENT_QUOTES,'UTF-8')."</p>";
 
-      //性別の変換と表示
+      //性別の変換、表示
       $gender_list=['male'=>'男性','female'=>'女性','other'=>'その他'];
       $display_gender=$gender_list[$gender]??'未選択';
       echo"<p>性別:".htmlspecialchars($display_gender,ENT_QUOTES,'UTF-8')."</p>";
