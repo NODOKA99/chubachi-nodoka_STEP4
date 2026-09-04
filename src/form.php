@@ -13,7 +13,7 @@
     <input type="text" id="username" name="username"><br><br>
     <!-- 年齢 -->
     <label for="age">年齢:</label>
-    <input type="text" id="age" name="age"><br><br>
+    <input type="number" id="age" name="age"><br><br>
 
     <!-- 電話番号 -->
     <label for="phone">電話番号:</label>

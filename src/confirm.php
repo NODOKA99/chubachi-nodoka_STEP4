@@ -29,7 +29,7 @@
     }elseif(!filter_var($email,FILTER_VALIDATE_EMAIL)){
       echo "<p>メールアドレスの形式が正しくありません。</p>";
 
-    }elseif(!preg_match("/^[ぁ-ん ァ-ヶー一-龠 a-zA-Z\s]+$/u",$address)){
+    }elseif(!preg_match("/^[ぁ-ん ァ-ヶー一-龠 a-zA-Z0-9¥s-]+$/u",$address)){
       echo "<p>住所はひらがな、カタカナ、漢字、英字、半角数字、ハイフンのみ使用できます。</p>";
 
     }else{
